@@ -1,0 +1,82 @@
+/* style canvas */
+.offcanvas {
+  background-color: rgb(33, 37, 41) !important;
+}
+
+@media only screen and (max-width:540px) {
+  .offcanvas {
+    width: 65% !important;
+
+  }
+}
+
+.offcanvas-header {
+  border-bottom: 1px solid #bbb;
+}
+
+/* style navbar modal */
+.modal-header {
+  justify-content: center !important;
+}
+
+
+/* style registed modal */
+.registed-modal {
+  margin: 0 auto !important;
+  max-width: 90% !important;
+}
+
+.headModal-registed {
+  flex-direction: column;
+}
+
+.headModal-title {
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.headModal-chooseCourse{
+  width: 100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin: 10px 0;
+}
+
+
+
+
+/*  paginate css */
+.paginate {
+  display: flex;
+  list-style: none;
+  flex-wrap: wrap;
+}
+
+.paginate .paginate-item {
+  padding: 5px 15px;
+  border: 1px solid #ddd;
+  cursor: pointer;
+}
+
+.paginate .paginate-item:hover {
+  background-color: rgba(0, 0, 0, 0.05);
+}
+
+.paginate .paginate-item.active {
+  background: #bbb;
+  border-color: transparent;
+  border-radius: 5px;
+}
+
+.paginate .paginate-item a {
+  color: #000;
+  text-decoration: none;
+}
+
+.paginate-button {
+  background-color: transparent;
+  border: transparent !important;
+}

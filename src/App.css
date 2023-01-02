@@ -1,0 +1,138 @@
+/* style canvas */
+.offcanvas {
+    background-color: rgb(33, 37, 41);
+}
+
+@media only screen and (max-width:540px) {
+    .offcanvas {
+        width: 65% !important;
+
+    }
+}
+
+
+.accordion-body a {
+    color: #000;
+    text-decoration: none;
+    transition: all 0.3s;
+}
+
+.accordion-body a:hover {
+    opacity: 0.5;
+}
+
+@media only screen and (max-width:540px) {
+    .accordion-body a {
+        font-size: 13px;
+
+    }
+}
+
+/* animation */
+
+@keyframes xoayvong {
+    from {
+        -webkit-transform: rotate(0deg);
+        -moz-transform: rotate(0deg);
+        -o-transform: rotate(0deg);
+    }
+
+    to {
+        -webkit-transform: rotate(360deg);
+        -moz-transform: rotate(360deg);
+        -o-transform: rotate(360deg);
+
+    }
+}
+
+/* css thẻ nội dung */
+.myCard {
+    box-shadow: 0 0 10px 2px rgba(0, 0, 0, 0.2);
+    transition: all 0.3s;
+
+}
+
+.myCard img {
+    cursor: pointer;
+}
+
+
+.myCard:hover {
+    transform: scale(1.025);
+
+}
+
+.card-body h5 {
+    display: -webkit-box;
+    -webkit-box-orient: vertical;
+    -webkit-line-clamp: 1;
+    overflow: hidden;
+}
+
+/* my button */
+
+.myButton {
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    font-weight: 600;
+    color: #fff;
+    background: var(--color-button);
+    background-size: 250%;
+    transition: all 0.5s ease;
+
+}
+
+.myButton:hover {
+    background-position: right center;
+}
+
+
+/*  paginate css */
+.paginate {
+    display: flex;
+    list-style: none;
+    flex-wrap: wrap;
+}
+
+.paginate .paginate-item {
+    padding: 5px 15px;
+    border: 1px solid #ddd;
+    cursor: pointer;
+}
+
+.paginate .paginate-item:hover {
+    background-color: rgba(0, 0, 0, 0.05);
+}
+
+.paginate .paginate-item.active {
+    background: var(--color-button-2);
+    border-color: transparent;
+    border-radius: 5px;
+}
+
+.paginate .paginate-item a {
+    color: #000;
+    text-decoration: none;
+}
+
+.paginate-button {
+    background-color: transparent;
+    border: transparent !important;
+}
+
+/* css swal popup */
+.swal-footer {
+    text-align: center;
+}
+
+.swal-button--confirm {
+    background: var(--color-button);
+    background-size: 250%;
+    transition: all 0.5s ease;
+
+}
+
+.swal-button--confirm:hover {
+    background-position: right center;
+}
